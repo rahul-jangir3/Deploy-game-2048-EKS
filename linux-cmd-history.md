@@ -44,8 +44,9 @@ sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 
 
  ## Create EKS cluster
-
-```eksctl create cluster --name demo-cluster --region ap-south-1 --fargate
+ 
+```
+eksctl create cluster --name demo-cluster --region ap-south-1 --fargate
 ```
 
 
